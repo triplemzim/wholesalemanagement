@@ -1,0 +1,38 @@
+body{
+  
+  background-image: url("images/bck1.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 100%;
+
+}
+
+div {
+    border-radius: 25px;
+    position: center;
+    width: 300px;
+    margin: auto;
+    border: 10px groove darkblue;
+    /*background-color: rgb(140,137,132);*/
+    /*background: linear-gradient(red,lightyellow);*/
+    background-image: url("images/bck2.jpg");
+    padding: 25px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 160%;
+}
+
+a:link {
+    text-decoration: none;
+    color: orange;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+a:active{
+    color: darkviolet;
+}
